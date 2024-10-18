@@ -1,0 +1,8 @@
+var arr = [2,3,4,2,3,9,6];
+console.log(arr.reduce((p,c)=>{
+    if(! p.includes(c)){
+        return [...p,c]
+    }
+    else
+     return p;
+},[]));
